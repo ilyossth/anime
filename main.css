@@ -1,0 +1,45 @@
+body{
+    background-color: antiquewhite
+}
+
+.header{
+    background-color: rgb(160, 117, 117);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding:  15px;
+    border-radius: 19px;
+}
+
+.lorem{
+    text-align: center;
+    color: gray;
+}
+
+.father-card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    border: 1px solid red;
+    padding: 10px 15px 0;
+}
+
+
+.card{
+    border: 1px solid red;
+    text-align: center;
+    text-decoration: none;
+    background-color:rgb(133, 143, 155) ;
+    /* opacity: 0.5; */
+}
+
+.card  img{
+    width: 100%;
+    height: 200px;
+}
